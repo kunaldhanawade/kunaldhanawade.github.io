@@ -47,10 +47,13 @@
             <path
                 d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
         </symbol>
+        <symbol id="arrow" viewBox="0 0 24 24">
+            <path d="M10.586 3l-6.586 6.586a2 2 0 0 0 -.434 2.18l.068 .145a2 2 0 0 0 1.78 1.089h2.586v7a2 2 0 0 0 2 2h4l.15 -.005a2 2 0 0 0 1.85 -1.995l-.001 -7h2.587a2 2 0 0 0 1.414 -3.414l-6.586 -6.586a2 2 0 0 0 -2.828 0z"></path>
+        </symbol>
     </svg>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="home">
         <div class="container-fluid">
             <img src="/assets/logo.png" class="img-fluid rounded" alt="logo" width="270">
             <!-- <h3 class="navbar-brand" href="#">Kunal Dhanawade</h3> -->
@@ -67,9 +70,11 @@
                     <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
                     <li class="nav-item"><a href="/assets/Kunal's Resume.pdf" class="nav-link">Resumé</a></li>
                     <li class="nav-item btn-group dropstart">
-                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Social</button>
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">Social</button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/dhanawade-kunal">LinkedIn</a></li>
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/dhanawade-kunal">LinkedIn</a>
+                            </li>
                             <li><a class="dropdown-item" href="https://github.com/kunaldhanawade">GitHub</a></li>
                             <li><a class="dropdown-item" href="https://twitter.com/kunalrd07">Twitter</a></li>
                             <li><a class="dropdown-item" href="https://instagram.com/kunaldhanawade">Instagram</a></li>
@@ -84,13 +89,14 @@
     <div class="container col-xxl-8 px-4 mt-4">
         <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5">
             <div class="col-10 col-sm-8 col-lg-6">
-                <img src="/assets/kunal.jpeg" class="d-block mx-lg-auto img-fluid rounded" alt="Kunal Dhanawade"
-                    width="450" height="" loading="lazy">
+                <img src="/assets/kunal 1.jpeg" class="d-block mx-lg-auto img-fluid rounded" alt="Kunal Dhanawade"
+                    width="450" loading="lazy">
             </div>
             <div class="col-lg-6">
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, there!</h1>
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 fade-in-left">Hi, there!</h1>
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I'm Kunal Dhanawade</h1>
-                <p class="lead">A passionate Software developer with a love for crafting exceptional user experiences. I am a currently seeking Full-Time Roles in Android/Software Development.</p>
+                <p class="lead">A passionate Software developer with a love for crafting exceptional user experiences. I
+                    am a currently seeking Full-Time Roles in Android/Software Development.</p>
                 <br>
                 <p>
                     <svg class="bi" width="20" height="20">
@@ -102,9 +108,6 @@
                     <a href="/assets/Kunal's Resume.pdf" target="_blank">
                         <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Resumé</button>
                     </a>
-                    <!-- <a href="/assets/Kunal's Resume.pdf" download="Resume - Kunal Dhanawade">
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Download Resume</button>
-                    </a> -->
                 </div>
             </div>
         </div>
@@ -123,45 +126,44 @@
                 class="text-body-secondary">a 2023 graduate with a Bachelor of Engineering in Technology.</span></h2>
 
         <div class="row featurette align-items-center">
-            <div class="col-md-7">
-                <p class="font-monospace">My goal is to secure an entry-level position at a prestigious company where I can apply
-                    my skills and learn from experienced professionals, kickstarting my career. Currently based in
-                    Prabhadevi, Mumbai, I am open to opportunities anywhere in India.<br><br>I completed my Bachelor of
-                    Engineering degree in Information Technology from Shivajirao S. Jondhale College of Engineering,
-                    Dombivli, which is affiliated with the University of Mumbai. Throughout my education, I acquired a
-                    strong foundation in programming and problem-solving skills. Additionally, I am proud to be an
-                    alumnus of Holy Cross High School, Lower Parel, where I completed my schooling, and Wilson College,
-                    Chowpaty, where I completed my Junior College.</p>
+            <div class="col-md-8 order-md-2">
+                <p class="font-monospace">My goal is to secure an entry-level position at a prestigious company where I
+                    can apply my skills and learn from experienced professionals, kickstarting my career. Currently
+                    based in Prabhadevi, Mumbai, I am open to opportunities anywhere in India.<br><br>I completed my
+                    Bachelor of Engineering degree in Information Technology from Shivajirao S. Jondhale College of
+                    Engineering, Dombivli, which is affiliated with the University of Mumbai. Throughout my education, I
+                    acquired a strong foundation in programming and problem-solving skills. Additionally, I am proud to
+                    be an alumnus of Holy Cross High School, Lower Parel, where I completed my schooling, and Wilson
+                    College, Chowpaty, where I completed my Junior College.<br><br>I am enthusiastic about Android
+                    development and interested in software development roles. I have a strong passion for creating
+                    mobile applications and continuously expanding my skills in the field of software development.</p>
             </div>
-            <div class="col-md-5">
-                <img src="/assets/laptop wave.png" alt="Sticker" class="px-5 img-fluid">
-            </div>
+            <img src="/assets/kunal 2.jpeg" alt="Kunal Dhanawade" class="col-md-4 img-fluid">
         </div>
 
         <div class="row featurette align-items-center">
-            <div class="col-md-7 order-md-2">
-                <p class="font-monospace">My technical expertise lies in HTML, CSS, JavaScript, as well as frameworks like React
-                    and Bootstrap. Moreover, I possess a decent understanding of backend programming languages such as
-                    Java and Python, along with working knowledge of MySQL and MongoDB databases. Mobile app development
-                    using Flutter has also captured my interest, and I have successfully developed an application in
-                    this technology.<br><br>Proficient in MS Office tools, including Word, Excel, PowerPoint, and Teams,
-                    I have experience working with version control systems like Git. I am fluent in English, Marathi,
-                    and Hindi, enabling effective communication in diverse environments. Moreover, my skill set
-                    encompasses strong communication, teamwork, adaptability, and leadership abilities, coupled with a
-                    relentless drive for learning and personal growth.</p>
+            <div class="col-md-8">
+                <p class="font-monospace"><br>My technical expertise lies in HTML, CSS, JavaScript, as well as
+                    frameworks like React and Bootstrap. Moreover, I possess a decent understanding of backend
+                    programming languages such as Java and Python, along with working knowledge of MySQL and MongoDB
+                    databases. Mobile app development using Flutter has also captured my interest, and I have
+                    successfully developed an application in this technology.<br><br>Proficient in MS Office tools,
+                    including Word, Excel, PowerPoint, and Teams, I have knowledge of working with version control
+                    systems like Git and GitHub. I am fluent in English, Marathi, and Hindi, enabling effective
+                    communication in diverse environments. Moreover, my skill set encompasses strong communication,
+                    teamwork, adaptability, and leadership abilities, coupled with a relentless drive for learning and
+                    personal growth. Apart from coding, I find joy in watching OTT content, staying updated on political
+                    news, and exploring Instagram. These hobbies provide me with a well-rounded perspective and serve as
+                    a catalyst for my creativity. </p>
             </div>
-            <div class="col-md-5 order-md-1">
-                <img src="/assets/sunglasses emoji.png" alt="Sticker" class="px-5  img-fluid">
-            </div>
+            <img src="/assets/kunal 3.jpeg" alt="Kunal Dhanawade" class=" col-md-4 order-md-1 img-fluid">
         </div>
 
-        <p class="font-monospace pt-4">Apart from coding, I find joy in watching OTT content, staying updated on political news,
-            and exploring Instagram. These hobbies provide me with a well-rounded perspective and serve as a catalyst
-            for my creativity. Fun fact: I have a penchant for listening to pop music, and I particularly enjoy the
-            music of Justin Bieber. Additionally, one of my favorite movie franchises is the Marvel Cinematic Universe
-            (MCU). In fact, I can engage in lengthy conversations about the various movies, characters, and story arcs
-            within the franchise.<br><br>Thank you for taking the time to get to know me better. I'm excited to
-            contribute my skills and be a valuable asset to any team I join.</p>
+        <p class="font-monospace pt-2">Fun fact: I have a penchant for listening to pop music, and I particularly enjoy
+            the music of Justin Bieber. Additionally, one of my favorite movie franchises is the Marvel Cinematic
+            Universe (MCU). In fact, I can engage in lengthy conversations about the various movies, characters, and
+            story arcs within the franchise.<br><br>Thank you for taking the time to get to know me better. I'm excited
+            to contribute my skills and be a valuable asset to any team I join.</p>
     </div>
 
     <!-- projects -->
@@ -173,87 +175,120 @@
     </div>
 
     <div class="container pt-5">
-        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 mb-3 text-center">
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow border-dark shadow mb-2 bg-body-tertiary">
-                    <div class="card-header py-3 text-bg-dark border-dark">
-                        <h4 class="my-0 fw-normal">Ethereum</h4>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title pricing-card-title">Auction DApp</h3>
-                        <br>
-                        <p class="lead">Developed a decentralized auction application using blockchain technology,
-                            specifically Ethereum, Solidity, React JS, Ganache, and Metamask.</p>
-                        <!-- <a href="#"><button type="button" class="w-100 btn btn-lg btn-dark">GitHub Repo</button></a> -->
-                    </div>
-                </div>
-            </div>
+        <details class="pt-2">
+            <summary class="fs-3 fw-semibold text-body-emphasis text-uppercase">Tour Guide Application <span
+                    class="fs-6 fw-light font-monospace">(Jan 2022 - Apr 2022)</span></summary>
+            <ul class="pt-2 lead">
+                <li>Developed a static Android app using Flutter widgets such as AppBar, ListView, PageView, TabBar,
+                    etc. creating an engaging user interface and seamless navigation experience.</li>
+                <li>Utilized the Android Studio development environment to implement efficient code structure and
+                    optimize the performance.</li>
+                <li>Designed a visually appealing tour guide App, enhancing the user's experience of exploring various
+                    tourist attractions in Mumbai.</li>
+                <li>GitHub Link: <a href="https://github.com/kunaldhanawade">https://github.com/kunaldhanawade</a></li>
+                <li class="py-2">
+                    <span class="badge text-bg-danger">Flutter</span>
+                    <span class="badge text-bg-warning">Dart</span>
+                    <span class="badge text-bg-success">Android Studio</span>
+                </li>
+            </ul>
+        </details>
+        <hr />
 
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow border-dark shadow mb-2 bg-body-tertiary">
-                    <div class="card-header py-3 text-bg-dark border-dark">
-                        <h4 class="my-0 fw-normal">Flutter</h4>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title pricing-card-title">Tour Guide Application</h3>
-                        <br>
-                        <p class="lead">Created a static Android application using Flutter widgets such as AppBar,
-                            ListView, PageView, and TabBar, utilizing the development environment of Android Studio.</p>
-                        <!-- <a href="#"><button type="button" class="w-100 btn btn-lg btn-dark">GitHub Repo</button></a> -->
-                    </div>
-                </div>
-            </div>
+        <details class="pt-2">
+            <summary class="fs-3 fw-semibold text-body-emphasis text-uppercase">Water Park Website <span
+                    class="fs-6 fw-light font-monospace">(Jul 2021 - Oct 2021)</span></summary>
+            <ul class="pt-2 lead">
+                <li>Created a responsive website using HTML, CSS, JavaScript, and Bootstrap, featuring an immersive
+                    exploration of the water park and providing online ticket booking, payment, cancellation, and refund
+                    functionalities.</li>
+                <li>Utilized Node.js for server-side scripting and integrated MySQL database for storing user data,
+                    enabling seamless handling of online transactions and user interactions.</li>
+                <li>Designed an engaging and user-friendly website, focusing on intuitive navigation and visually
+                    appealing design.</li>
+                <li>GitHub Link: <a
+                        href="https://github.com/kunaldhanawade/waterpark-website">https://github.com/kunaldhanawade/waterpark-website</a>
+                </li>
+                <li class="py-2">
+                    <span class="badge text-bg-danger">HTML</span>
+                    <span class="badge text-bg-warning">CSS</span>
+                    <span class="badge text-bg-success">Bootstrap</span>
+                    <span class="badge text-bg-info">JavaScript</span>
+                    <span class="badge text-bg-primary">Mongo DB</span>
+                    <span class="badge text-bg-secondary">Razorpay</span>
+                </li>
+            </ul>
+        </details>
+        <hr />
 
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow border-dark shadow mb-2 bg-body-tertiary">
-                    <div class="card-header py-3 text-bg-dark border-dark">
-                        <h4 class="my-0 fw-normal">Python</h4>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title pricing-card-title">Quiz Application</h3>
-                        <br>
-                        <p class="lead">Developed a dynamic quiz game featuring multiple categories and an online
-                            test-taking functionality, incorporating Python-Tkinter framework and MySQL database.</p>
-                        <!-- <a href="#"><button type="button" class="w-100 btn btn-lg btn-dark">GitHub Repo</button></a> -->
-                    </div>
-                </div>
-            </div>
+        <details class="pt-2">
+            <summary class="fs-3 fw-semibold text-body-emphasis text-uppercase">Decentralized Auction
+                System <span class="fs-6 fw-light font-monospace">(Jan 2023 - Apr 2023)</span></summary>
+            <ul class="pt-2 lead">
+                <li>Developed a decentralized auction application utilizing Ethereum blockchain technology, Solidity
+                    smart contracts, React JS, Ganache, and Metamask.</li>
+                <li>Implemented secure and transparent auction functionality, allowing participants to bid, track
+                    auctions, and verify transaction history on the Ethereum network.</li>
+                <li>Designed the user-friendly interface, ensuring seamless integration between the frontend and smart
+                    contract backend.</li>
+                <li>GitHub Link: <a href="https://github.com/kunaldhanawade">https://github.com/kunaldhanawade</a></li>
+                <li class="py-2">
+                    <span class="badge text-bg-danger">Solidity</span>
+                    <span class="badge text-bg-warning">Smart Contracts</span>
+                    <span class="badge text-bg-success">Ethereum</span>
+                    <span class="badge text-bg-info">Ganache</span>
+                    <span class="badge text-bg-primary">Metamask</span>
+                    <span class="badge text-bg-secondary">React JS</span>
+                    <span class="badge text-bg-dark">Node JS</span>
+                </li>
+            </ul>
+        </details>
+        <hr />
 
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow border-dark shadow mb-2 bg-body-tertiary">
-                    <div class="card-header py-3 text-bg-dark border-dark">
-                        <h4 class="my-0 fw-normal">Python</h4>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title pricing-card-title">Inventory Management</h3>
-                        <br>
-                        <p class="lead">Created an inventory management system for a dairy shop, enabling admin to add
-                            product and employee details, and allowing employees to handle customer orders and generate
-                            bills, with access to view customer purchase details, using Python-Tkinter framework and
-                            MongoDB database.</p>
-                        <!-- <a href="#"><button type="button" class="w-100 btn btn-lg btn-dark">GitHub Repo</button></a> -->
-                    </div>
-                </div>
-            </div>
+        <details class="pt-2">
+            <summary class="fs-3 fw-semibold text-body-emphasis text-uppercase">Quiz Application <span
+                    class="fs-6 fw-light font-monospace">(Jan 2021 - Apr 2021)</span></summary>
+            <ul class="pt-2 lead">
+                <li>Created a dynamic quiz game with multiple functionalities like online test-taking functionality,
+                    leveraging the Python-Tkinter framework for the user interface and MySQL database for storing quiz
+                    questions and answers.</li>
+                <li>Implemented interactive features such as timers and scoring to enhance user engagement and provide a
+                    challenging quiz experience.</li>
+                <li>Developed the application ensuring seamless integration of backend functionalities and best user
+                    interaction.</li>
+                <li>GitHub Link: <a
+                        href="https://github.com/kunaldhanawade/Quiz-Application-in-Python">https://github.com/kunaldhanawade/Quiz-Application-in-Python</a>
+                </li>
+                <li class="py-2">
+                    <span class="badge text-bg-danger">Python</span>
+                    <span class="badge text-bg-warning">Thinter</span>
+                    <span class="badge text-bg-success">MySQL</span>
+                </li>
+            </ul>
+        </details>
+        <hr />
 
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow border-dark shadow mb-2 bg-body-tertiary">
-                    <div class="card-header py-3 text-bg-dark border-dark">
-                        <h4 class="my-0 fw-normal">JavaScript</h4>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title pricing-card-title">Water Park Website</h3>
-                        <br>
-                        <p class="lead">Created a responsive website using HTML, CSS, JavaScript, and Bootstrap, and
-                            incorporated features like viewing waterpark details and exploring it online, online ticket
-                            booking, online payment, booking cancellation, and refund policy using Node.js, MySQL, and
-                            the Razorpay Payment Gateway.</p>
-                        <!-- <a href="#"><button type="button" class="w-100 btn btn-lg btn-dark">GitHub Repo</button></a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <details class="pt-2">
+            <summary class="fs-3 fw-semibold text-body-emphasis text-uppercase">Inventory Management System <span
+                    class="fs-6 fw-light font-monospace">(Mar 2022)</span></summary>
+            <ul class="pt-2 lead">
+                <li>Developed an inventory management system for a dairy shop, utilizing the Python-Tkinter framework
+                    for the user interface and MongoDB database for efficient storage and retrieval of product,
+                    employee, and customer data.</li>
+                <li>Implemented features to add product and employee details, handle customer orders, generate bills,
+                    and view customer purchase history, enhancing operational efficiency, streamlining inventory
+                    management processes and improving accuracy in managing inventory.</li>
+                <li>GitHub Link: <a
+                        href="https://github.com/kunaldhanawade/Inventory-Management-System-in-Python">https://github.com/kunaldhanawade/Inventory-Management-System-in-Python</a>
+                </li>
+                <li class="py-2">
+                    <span class="badge text-bg-danger">Python</span>
+                    <span class="badge text-bg-warning">Tkinter</span>
+                    <span class="badge text-bg-success">MongoDB</span>
+                </li>
+            </ul>
+        </details>
+        <hr />
     </div>
 
     <!-- certificates -->
@@ -266,6 +301,11 @@
 
     <div class="container mt-5">
         <div class="row row-cols-1 row-cols-lg-2 mb-2">
+            <div class="col pb-3">
+                <img src="/assets/AWSome Day Online Conference.png"
+                    class="border rounded w-100 p-1 bg-secondary-subtle shadow mb-2 bg-body-tertiary rounded"
+                    alt="AWSome Day Online Conference Certificate" height="300">
+            </div>
             <div class="col pb-3">
                 <img src="/assets/Android Masterclass Cert.jpg"
                     class="border rounded w-100 p-1 bg-secondary-subtle shadow mb-2 bg-body-tertiary rounded"
@@ -316,6 +356,9 @@
             </ul>
         </div>
     </footer>
+
+    <!-- move to top button -->
+    <a href="#home" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;"><svg class="bi" width="16" height="16"><use xlink:href="#arrow" /></svg></a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
